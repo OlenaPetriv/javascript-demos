@@ -11,7 +11,6 @@ export function run(){
         featureImage.classList.remove('hidden');
         e.target.innerHTML = `Hide Barcelona`;
     } else {
-        featureImage.src = '';
         featureImage.classList.add('hidden');
         e.target.innerHTML = `View Barcelona`;
     }
